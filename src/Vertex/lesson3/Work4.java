@@ -36,10 +36,10 @@ public class Work4 {
                 .append(ukraine)
                 .toString();
 
-        System.out.println("Before");
+        System.out.println("Before trim length");
         System.out.println(result.length());
 
-        System.out.println("After");
+        System.out.println("After trim");
         System.out.println(result.trim().length());
 
 
