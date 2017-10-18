@@ -34,7 +34,7 @@ public class Task4 {
 
         while (a >= b) {
             if (a%2 == 0) {
-                System.out.println(a+ "  ");
+                System.out.println(a+ "   ");
             }
             a--;
         }
