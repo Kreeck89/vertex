@@ -10,6 +10,9 @@ public class Task5 {
         System.out.println(calc(a, b, c));
     }
 
+    /**
+     * It takes values for the task
+     */
     private static int calc(int a, int b, char c) {
         int value = 0;
         if (c == '+') {
@@ -24,6 +27,9 @@ public class Task5 {
         return value;
     }
 
+    /**
+     * Wat action to take.
+     */
     private static char getOperation() {
         Scanner scanner = new Scanner(System.in);
         char c = ' ';
@@ -52,6 +58,9 @@ public class Task5 {
         return c;
     }
 
+    /**
+     * Create new values from keyboard.
+     */
     private static int getInt() {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
