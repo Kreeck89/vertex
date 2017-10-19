@@ -12,6 +12,7 @@ public class Human1 extends Service {
         human1.exit();
         System.out.println(human1.roadLength());
         human1.setColor(Const.BLACK);
+        human1.setSize(Size.l1);
     }
 
     public String getColor() {
