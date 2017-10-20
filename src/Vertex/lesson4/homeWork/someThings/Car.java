@@ -63,4 +63,13 @@ public class Car {
     public void setSize(int size) {
         this.size = size;
     }
+
+    @Override
+    public String toString() {
+        return "Mark: " + getMark()
+                + "\nColor: " + getColor()
+                + "\nage: " + getAge()
+                + "\nYearOld: " + getYearOld()
+                + "\nSize: " + getSize();
+    }
 }

@@ -5,7 +5,7 @@ import Vertex.lesson4.homeWork.people.Man;
 import Vertex.lesson4.homeWork.someThings.Car;
 import Vertex.lesson4.homeWork.someThings.House;
 
-public class Pliceman extends Man {
+public class Policeman extends Man {
 
     Car car;
     House house;

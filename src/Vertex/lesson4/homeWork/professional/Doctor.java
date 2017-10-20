@@ -11,6 +11,10 @@ public class Doctor extends Woman {
     House house;
     Animals animals;
 
+    public void test() {
+        femaleFeature();
+    }
+
     public Car getCar() {
         return car;
     }
@@ -33,5 +37,15 @@ public class Doctor extends Woman {
 
     public void setAnimals(Animals animals) {
         this.animals = animals;
+    }
+
+    @Override
+    public String toString() {
+        return "Name is " + getName() + "\nSurname is " + getSurname() + "\nHis car: " + getCar();
+    }
+
+    @Override
+    protected void femaleFeature() {
+        System.out.println("I have not a feature!!!");
     }
 }

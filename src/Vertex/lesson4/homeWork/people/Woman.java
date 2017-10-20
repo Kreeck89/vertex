@@ -6,7 +6,7 @@ public class Woman extends Human {
         System.out.println("Women can burn a child for us.");
     }
 
-    protected static void femaleFeature () {
+    protected void femaleFeature () {
         System.out.println("We have some feature?");
     }
 }

@@ -18,14 +18,14 @@ public class Human {
         return age;
     }
 
-    public static String parents() {
+    public static void parents() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter you parents names: \n Mother ");
         String m = scanner.nextLine();
         System.out.println("Father");
         String f = scanner.nextLine();
         scanner.close();
-        return "Your mother is: " + m + " And father is: " + f;
+        System.out.println("Your mother is: " + m + " And father is: " + f);
     }
 
     public String getName() {
