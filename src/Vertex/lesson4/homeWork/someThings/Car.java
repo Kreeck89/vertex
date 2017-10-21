@@ -8,7 +8,7 @@ public class Car {
        private int yearOld;
        private int size;
 
-       protected static void saleCare() {
+       public static void saleCare() {
            System.out.println("It`s car is for sale!");
        }
 

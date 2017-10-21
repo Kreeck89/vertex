@@ -10,22 +10,30 @@ public class Human {
     private int age;
     private boolean sex;
 
-    public static int hight() {
+    public static int height() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your hight burn:");
+        System.out.println("Enter your height born:");
         int age = scanner.nextInt();
-        scanner.close();
+//        scanner.close();
         return age;
     }
 
     public static void parents() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter you parents names: \n Mother ");
+        System.out.println("Enter you parents names: \nMother: ");
         String m = scanner.nextLine();
-        System.out.println("Father");
+        System.out.println("Father: ");
         String f = scanner.nextLine();
         scanner.close();
         System.out.println("Your mother is: " + m + " And father is: " + f);
+    }
+
+    public String toSt() {
+        return "Name: " + getName()
+                + "\nSurname: " + getSurname()
+                + "\nWhere was he/she born: " + getCountryBurn()
+                + "\nYour age: " + getAge()
+                + "\nWhat is your sex? (true = man, false = woman): " + isSex();
     }
 
     public String getName() {

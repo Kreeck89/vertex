@@ -11,4 +11,36 @@ public class Policeman extends Man {
     House house;
     Animals animals;
 
+    public static void power() {
+        System.out.println("Has a great Power!!!");
+    }
+
+    @Override
+    public void maleFeature() {
+        System.out.println("Have good vitality!");
+    }
+
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
+    }
+
+    public House getHouse() {
+        return house;
+    }
+
+    public void setHouse(House house) {
+        this.house = house;
+    }
+
+    public Animals getAnimals() {
+        return animals;
+    }
+
+    public void setAnimals(Animals animals) {
+        this.animals = animals;
+    }
 }

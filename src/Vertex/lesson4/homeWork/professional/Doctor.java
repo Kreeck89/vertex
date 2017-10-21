@@ -11,7 +11,8 @@ public class Doctor extends Woman {
     House house;
     Animals animals;
 
-    public void test() {
+
+    public void feature() {
         femaleFeature();
     }
 
@@ -40,12 +41,7 @@ public class Doctor extends Woman {
     }
 
     @Override
-    public String toString() {
-        return "Name is " + getName() + "\nSurname is " + getSurname() + "\nHis car: " + getCar();
-    }
-
-    @Override
-    protected void femaleFeature() {
+    public void femaleFeature() {
         System.out.println("I have not a feature!!!");
     }
 }

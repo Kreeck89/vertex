@@ -6,12 +6,23 @@ public class Animals {
     private String name;
     private boolean sex;
     private int age;
+    private String size;
 
     private static final String sizeSmall = "SMALL";
     private static final String sizeLarge = "LARGE";
 
     public String getKind() {
         return kind;
+    }
+
+    public Animals(String kind, String name, boolean sex, int age) {
+        this.kind = kind;
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+    }
+
+    public Animals() {
     }
 
     public void setKind(String kind) {
@@ -42,11 +53,28 @@ public class Animals {
         this.age = age;
     }
 
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
     public static String getSizeSmall() {
         return sizeSmall;
     }
 
     public static String getSizeLarge() {
         return sizeLarge;
+    }
+
+    @Override
+    public String toString() {
+        return "My animal kind is: " + getKind()
+                + "\nHis name is: " + getName()
+                + "\nTrue - it`s man, false - woman: " + isSex()
+                + "\nAnd age is: " + getAge()
+                + "\nSize: " + getSize();
     }
 }

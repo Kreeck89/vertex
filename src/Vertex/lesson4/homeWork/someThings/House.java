@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class House {
 
-    private static String bilder;
+    private static String builder;
     private static int size;
     private int prise;
 
@@ -17,14 +17,20 @@ public class House {
       }
 
       public House() {
-
       }
 
-      public House(String bilder, int size, int prise) {
-          this.bilder = bilder;
+      public House(String builder, int size, int prise) {
+          this.builder = builder;
           this.size = size;
           this.prise = prise;
       }
+
+    @Override
+    public String toString() {
+        return "It`s builder is: " + getBuilder()
+                + "\nHis size is: " + getSize()
+                + "\nPrise for bought it: " + getPrise();
+    }
 
     public static int getSize() {
         return size;
@@ -42,11 +48,11 @@ public class House {
         this.prise = prise;
     }
 
-    public static String getBilder() {
-        return bilder;
+    public static String getBuilder() {
+        return builder;
     }
 
-    public static void setBilder(String bilder) {
-        House.bilder = bilder;
+    public static void setBuilder(String builder) {
+        House.builder = builder;
     }
 }
