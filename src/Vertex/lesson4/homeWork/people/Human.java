@@ -10,14 +10,20 @@ public class Human {
     private int age;
     private boolean sex;
 
+    /**
+     * Ask height growth at birth.
+     */
     public static int height() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your height born:");
+        System.out.println("Enter your growth at born:");
         int age = scanner.nextInt();
 //        scanner.close();
         return age;
     }
 
+    /**
+     * Ask parents names and return his names.
+     */
     public static void parents() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter you parents names: \nMother: ");
@@ -28,6 +34,9 @@ public class Human {
         System.out.println("Your mother is: " + m + " And father is: " + f);
     }
 
+    /**
+     * For prints information about users.
+     */
     public String toSt() {
         return "Name: " + getName()
                 + "\nSurname: " + getSurname()

@@ -11,6 +11,9 @@ public class Policeman extends Man {
     House house;
     Animals animals;
 
+    /**
+     * Print some text.
+     */
     public static void power() {
         System.out.println("Has a great Power!!!");
     }

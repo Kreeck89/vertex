@@ -2,6 +2,9 @@ package Vertex.lesson4.homeWork.people;
 
 public class Man extends Human {
 
+    /**
+     * Print static text.
+     */
     public static void loveBeer() {
         System.out.println("Men love drink a beer!");
     }

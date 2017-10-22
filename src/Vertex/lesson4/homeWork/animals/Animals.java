@@ -15,6 +15,9 @@ public class Animals {
         return kind;
     }
 
+    /**
+     * Constructor for enter all values of animal.
+     */
     public Animals(String kind, String name, boolean sex, int age) {
         this.kind = kind;
         this.name = name;
@@ -22,6 +25,9 @@ public class Animals {
         this.age = age;
     }
 
+    /**
+     * Free constructor.
+     */
     public Animals() {
     }
 
@@ -69,6 +75,9 @@ public class Animals {
         return sizeLarge;
     }
 
+    /**
+     * For prints values some animals.
+     */
     @Override
     public String toString() {
         return "My animal kind is: " + getKind()

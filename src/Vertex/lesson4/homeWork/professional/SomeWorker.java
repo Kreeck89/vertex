@@ -11,6 +11,9 @@ public class SomeWorker extends Woman {
     House house;
     Animals animals;
 
+    /**
+     * Return some text.
+     */
     public static String work() {
         return "Can work in different directions!";
     }

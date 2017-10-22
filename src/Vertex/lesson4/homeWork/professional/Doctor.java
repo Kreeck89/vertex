@@ -12,6 +12,9 @@ public class Doctor extends Woman {
     Animals animals;
 
 
+    /**
+     * Run inserted override method.
+     */
     public void feature() {
         femaleFeature();
     }

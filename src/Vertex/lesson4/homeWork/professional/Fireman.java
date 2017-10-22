@@ -11,6 +11,9 @@ public class Fireman extends Man {
     House house;
     Animals animals;
 
+    /**
+     * Return some text.
+     */
     public static String fire() {
         return "Don`t be afraid of fire!!!";
     }

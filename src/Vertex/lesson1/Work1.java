@@ -14,11 +14,11 @@ public class Work1 {
         System.out.println("Your name " + name);
         System.out.println("Your age is " + age);
 
-        System.out.println("And write your year burn");
+        System.out.println("And write your year borns");
 
         int year = scanner.nextInt();
 
         scanner.close();
-        System.out.println("You burn in " + year);
+        System.out.println("You borns in " + year);
     }
 }
