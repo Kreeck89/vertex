@@ -1,4 +1,4 @@
-package Vertex.lesson4.homeWork.someThings;
+package Vertex.lesson4.homeWork.homeProject1.someThings;
 
 import java.util.Scanner;
 

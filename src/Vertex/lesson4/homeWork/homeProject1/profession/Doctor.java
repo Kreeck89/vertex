@@ -1,9 +1,9 @@
-package Vertex.lesson4.homeWork.professional;
+package Vertex.lesson4.homeWork.homeProject1.profession;
 
-import Vertex.lesson4.homeWork.animals.Animals;
-import Vertex.lesson4.homeWork.people.Woman;
-import Vertex.lesson4.homeWork.someThings.Car;
-import Vertex.lesson4.homeWork.someThings.House;
+import Vertex.lesson4.homeWork.homeProject1.animals.Animals;
+import Vertex.lesson4.homeWork.homeProject1.people.Woman;
+import Vertex.lesson4.homeWork.homeProject1.someThings.Car;
+import Vertex.lesson4.homeWork.homeProject1.someThings.House;
 
 public class Doctor extends Woman {
 

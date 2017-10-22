@@ -1,4 +1,4 @@
-package Vertex.lesson4.homeWork.people;
+package Vertex.lesson4.homeWork.homeProject1.people;
 
 public class Woman extends Human {
 

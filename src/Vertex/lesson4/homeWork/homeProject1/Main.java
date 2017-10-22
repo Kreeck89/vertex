@@ -1,12 +1,12 @@
-package Vertex.lesson4.homeWork;
+package Vertex.lesson4.homeWork.homeProject1;
 
-import Vertex.lesson4.homeWork.animals.Animals;
-import Vertex.lesson4.homeWork.professional.Doctor;
-import Vertex.lesson4.homeWork.professional.Fireman;
-import Vertex.lesson4.homeWork.professional.Policeman;
-import Vertex.lesson4.homeWork.professional.SomeWorker;
-import Vertex.lesson4.homeWork.someThings.Car;
-import Vertex.lesson4.homeWork.someThings.House;
+import Vertex.lesson4.homeWork.homeProject1.animals.Animals;
+import Vertex.lesson4.homeWork.homeProject1.profession.Doctor;
+import Vertex.lesson4.homeWork.homeProject1.profession.Fireman;
+import Vertex.lesson4.homeWork.homeProject1.profession.Policeman;
+import Vertex.lesson4.homeWork.homeProject1.profession.SomeWorker;
+import Vertex.lesson4.homeWork.homeProject1.someThings.Car;
+import Vertex.lesson4.homeWork.homeProject1.someThings.House;
 
 public class Main {
 

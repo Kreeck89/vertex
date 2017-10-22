@@ -1,11 +1,11 @@
-package Vertex.lesson4.homeWork.professional;
+package Vertex.lesson4.homeWork.homeProject1.profession;
 
-import Vertex.lesson4.homeWork.animals.Animals;
-import Vertex.lesson4.homeWork.people.Woman;
-import Vertex.lesson4.homeWork.someThings.Car;
-import Vertex.lesson4.homeWork.someThings.House;
+import Vertex.lesson4.homeWork.homeProject1.animals.Animals;
+import Vertex.lesson4.homeWork.homeProject1.people.Man;
+import Vertex.lesson4.homeWork.homeProject1.someThings.Car;
+import Vertex.lesson4.homeWork.homeProject1.someThings.House;
 
-public class SomeWorker extends Woman {
+public class Fireman extends Man {
 
     Car car;
     House house;
@@ -14,13 +14,13 @@ public class SomeWorker extends Woman {
     /**
      * Return some text.
      */
-    public static String work() {
-        return "Can work in different directions!";
+    public static String fire() {
+        return "Don`t be afraid of fire!!!";
     }
 
     @Override
-    public void femaleFeature() {
-        System.out.println("I`m a yang woman)");
+    public void maleFeature() {
+        System.out.println("!!!And love his family!!!");
     }
 
     public Car getCar() {

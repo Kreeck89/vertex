@@ -1,4 +1,4 @@
-package Vertex.lesson4.homeWork.animals;
+package Vertex.lesson4.homeWork.homeProject1.animals;
 
 public class Animals {
 
