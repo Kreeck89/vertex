@@ -1,6 +1,7 @@
 package Vertex.lesson1;
 
 public class Work5 {
+
     public static void main(String[] args) {
         final int i = 3;
         switch (i) {

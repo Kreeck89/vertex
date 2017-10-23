@@ -7,7 +7,6 @@ public class Work3 {
     public static void main(String[] args) {
         int masLength = 10;
        final int [] m =  add(masLength);
-
         System.out.println(Arrays.toString(m));
     }
 

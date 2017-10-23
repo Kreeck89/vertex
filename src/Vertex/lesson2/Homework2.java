@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Homework2 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter array size");
         int n = scanner.nextInt();
         int lim = n / 2;
@@ -29,7 +29,6 @@ public class Homework2 {
                 lim++;
             }
         }
-
         System.out.println(Arrays.toString(mas));
         scanner.close();
     }

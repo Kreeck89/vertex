@@ -4,11 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Home_work_igor {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter array length, Pleas.");
-
         int l = scanner.nextInt();
         int arr[] = new int[l];
         System.out.println("Your array is: " + l);
@@ -22,9 +21,7 @@ public class Home_work_igor {
             System.out.println("PRESS 4: Say Hello!");
             System.out.println("PRESS 5: Exit");
 
-
             n = scanner.nextInt();
-
             switch (n) {
                 case 1:
                     System.out.println("Install array values:");
@@ -33,13 +30,11 @@ public class Home_work_igor {
                         n = 0;
                     }
                     break;
-
                 case 2:
                     System.out.println("Your array is:");
                     System.out.println(Arrays.toString(arr));
                     n = 0;
                     break;
-
                 case 3:
                     System.out.println("What array Index you want to change?");
                     int ind = scanner.nextInt();
@@ -48,17 +43,14 @@ public class Home_work_igor {
                     arr[ind] = num;
                     n = 0;
                     break;
-
                 case 4:
                     System.out.println("Hello!");
                     n = 0;
                     break;
-
                 case 5:
                     System.out.println("Exit");
                     break;
-
-                    default:
+                default:
                         System.out.println("You enter wrong number");
                         n = 5;
                         break;

@@ -21,10 +21,8 @@ public class Work12hard {
             mass1[j] = massOur[i];
             System.out.println("It` random value mass1 = " + mass1[j]);
         }
-
         System.out.println(Arrays.toString(massOur));
         System.out.println(Arrays.toString(mass0));
         System.out.println(Arrays.toString(mass1));
-
     }
 }

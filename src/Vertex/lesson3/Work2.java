@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Work2 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
@@ -22,7 +23,7 @@ public class Work2 {
         System.out.println(bool(5, 9));
 
         System.out.println(tripleMeth(10));
-
+        scanner.close();
     }
 
 
@@ -57,6 +58,7 @@ public class Work2 {
             return false;
         }
     }
+
     private static void notReturn(int x, int y) {
         System.out.println(x + y);
     }

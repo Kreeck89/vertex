@@ -3,6 +3,7 @@ package Vertex.lesson1;
 import java.util.Scanner;
 
 public class Work7 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String numb = scanner.nextLine();
@@ -20,16 +21,14 @@ public class Work7 {
                 System.out.println("u without salary");
                 break;*/
 
-       if (numb.equals("BTC")){
-           System.out.println("salary in btc");
-        }
-        else if (numb.equals("UAH")) {
-           System.out.println("salary in uah");
-       }
-       else if (numb.equals("USD")) {
-           System.out.println("salary in usd");
-       }
-       else
-           System.out.println("u without salary");
+        if (numb.equals("BTC")) {
+            System.out.println("salary in btc");
+        } else if (numb.equals("UAH")) {
+            System.out.println("salary in uah");
+        } else if (numb.equals("USD")) {
+            System.out.println("salary in usd");
+        } else
+            System.out.println("u without salary");
+        scanner.close();
     }
 }

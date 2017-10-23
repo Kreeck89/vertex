@@ -3,8 +3,8 @@ package Vertex.lesson3;
 import java.util.Scanner;
 
 public class HomeWorkWithStringChar {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
         int n = scanner.nextInt();
@@ -16,16 +16,13 @@ public class HomeWorkWithStringChar {
         } else {
             System.out.println(s.length());
         }
-
         System.out.println(Math.nextUp(n));
         System.out.println(s.toString());
 
         for (int i = 0; i <s.length() ; i++) {
-
             System.out.print(s.charAt(i) + "  ");
             System.out.println();
         }
-
             if (s.contains("a")) {
                 String ss = s.replaceAll("a", "111");
                 System.out.println(ss);
@@ -41,7 +38,6 @@ public class HomeWorkWithStringChar {
         n += sss;
         System.out.println(n);
 
-
         String sNew = s.replaceAll("a", "A");
         System.out.println(sNew);
 
@@ -53,5 +49,6 @@ public class HomeWorkWithStringChar {
 
         System.out.println(n1);
         System.out.println(n3);
+        scanner.close();
     }
 }

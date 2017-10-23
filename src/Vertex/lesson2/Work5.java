@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Work5 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -17,5 +18,6 @@ public class Work5 {
                 break;
             }
         }
+        scanner.close();
     }
 }

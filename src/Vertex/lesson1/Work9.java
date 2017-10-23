@@ -13,7 +13,7 @@ public class Work9 {
         while (num != value) {
             num = scanner.nextInt();
         }
-        scanner.close();
         System.out.println(num + " = " + value);
+        scanner.close();
     }
 }

@@ -5,13 +5,9 @@ import java.util.Locale;
 public class Work4 {
 
     public static void main(String[] args) {
-
         String welcome = "welcome";
         String to = "to";
         String ukraine = "Ukraine";
-
-
-
 
 /*        String result = welcome
                 .concat(" ")
@@ -26,7 +22,6 @@ public class Work4 {
                 + ukraine;*/
 
         final StringBuilder builder = new StringBuilder();
-
         String result = builder
                 .append("             ")
                 .append(welcome)
@@ -42,7 +37,6 @@ public class Work4 {
         System.out.println("After trim");
         System.out.println(result.trim().length());
 
-
         System.out.println(result.charAt(19));
 
         final String trim = result.trim();
@@ -51,7 +45,6 @@ public class Work4 {
 
         final String replaceAll = trim.replaceAll(" ", "");
         System.out.println(replaceAll);
-
 
         String hello = "Hello(%$";
 

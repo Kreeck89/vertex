@@ -5,7 +5,6 @@ public class Human1 extends Service {
     private String color;
 
     public static void main(String[] args) {
-
         Human1 human1 = new Human1();
 
         human1.driver();

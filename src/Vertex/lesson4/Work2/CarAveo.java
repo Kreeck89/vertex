@@ -3,9 +3,7 @@ package Vertex.lesson4.Work2;
 public class CarAveo extends CarLexus {
 
     public static void main(String[] args) {
-
         CarAveo aveo = new CarAveo();
-
         aveo.drivSomeKm();
         aveo.lengthRoad();
     }

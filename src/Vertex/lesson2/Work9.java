@@ -1,6 +1,7 @@
 package Vertex.lesson2;
 
 public class Work9 {
+
     public static void main(String[] args) {
         int a = 0;
         int arr[] = new int[10];
