@@ -3,6 +3,9 @@ package Vertex.javaStart.lesson5;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * Takes random array, random values for all and save them.
+ */
 public class RandomArraysCopy {
 
     public static void main(String[] args) {

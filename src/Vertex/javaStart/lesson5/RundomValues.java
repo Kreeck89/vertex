@@ -2,6 +2,9 @@ package Vertex.javaStart.lesson5;
 
 import java.util.Random;
 
+/**
+ * Print 10 ranges (0-100, 100-200....900-1000).
+ */
 public class RundomValues {
 
     public static void main(String[] args) {

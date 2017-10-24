@@ -3,6 +3,9 @@ package Vertex.javaStart.lesson5;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * Save random values in array with "while".
+ */
 public class ArrayWithWhile {
 
     public static void main(String[] args) {

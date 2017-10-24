@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Creates some array. And enters values with Scanner or Random(u chose).
+ */
 public class LengthArrAndEnter {
 
     public static void main(String[] args) {

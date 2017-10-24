@@ -1,5 +1,8 @@
 package Vertex.javaStart.lesson5;
 
+/**
+ * Hypotenuse count with well-know catenary.
+ */
 public class Gipotenuza {
 
     public static void main(String[] args) {

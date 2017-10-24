@@ -1,5 +1,8 @@
 package Vertex.javaStart.lesson5;
 
+/**
+ * Print numbers in ranges 1-10 & 40-50 & 70-80.
+ */
 public class NumbersToOneHundred {
 
     public static void main(String[] args) {

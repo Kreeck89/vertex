@@ -2,6 +2,9 @@ package Vertex.javaStart.lesson5;
 
 import java.util.Scanner;
 
+/**
+ * Have 7 methods. Chose method and use it.
+ */
 public class LessonWork {
 
     public static void main(String[] args) {
@@ -15,32 +18,32 @@ public class LessonWork {
                 "6 - stringToDouble();\n" +
                 "7 - doubleIntString();");
         int n = scanner.nextInt();
-            switch (n) {
-                case 1:
-                    doubleToInt();
-                    break;
-                case 2:
-                    intToDouble();
-                    break;
-                case 3:
-                    stringToInt();
-                    break;
-                case 4:
-                    intToString();
-                    break;
-                case 5:
-                    doubleToString();
-                    break;
-                case 6:
-                    stringToDouble();
-                    break;
-                case 7:
-                    doubleIntString();
-                    break;
-                    default:
-                        System.out.println("You entered wrong number!");
-                        break;
-            }
+        switch (n) {
+            case 1:
+                doubleToInt();
+                break;
+            case 2:
+                intToDouble();
+                break;
+            case 3:
+                stringToInt();
+                break;
+            case 4:
+                intToString();
+                break;
+            case 5:
+                doubleToString();
+                break;
+            case 6:
+                stringToDouble();
+                break;
+            case 7:
+                doubleIntString();
+                break;
+            default:
+                System.out.println("You entered wrong number!");
+                break;
+        }
         scanner.close();
     }
 
