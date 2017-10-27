@@ -10,9 +10,6 @@ public class AddAndSave {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         Scanner scannerAge = new Scanner(System.in);
-        String fileName = "src/Vertex/javaStart/resources/file.txt";
-        File file = new File(fileName);
-        FileWriter fileWriter = new FileWriter(file);
         ArrayList<Human> arrayList = new ArrayList<>();
 
         System.out.println("Enter 3 Humans: ");
@@ -31,6 +28,15 @@ public class AddAndSave {
             System.out.println("Enter your age new User: ");
             arrayList.get(i).setAge(scannerAge.nextInt());
         }
+        printArray(arrayList);
+        scanner.close();
+        scannerAge.close();
+    }
+
+    private static void printArray(ArrayList arrayList) throws Exception {
+        String fileName = "src/Vertex/javaStart/resources/file.txt";
+        File file = new File(fileName);
+        FileWriter fileWriter = new FileWriter(file);
 
         for (int i = 0; i < arrayList.size(); i++) {
             String nUser = "User" + (i + 1) + "\n";
@@ -38,7 +44,5 @@ public class AddAndSave {
             fileWriter.write(arrayList.get(i).toString() + "\n\n");
         }
         fileWriter.close();
-        scanner.close();
-        scannerAge.close();
     }
 }

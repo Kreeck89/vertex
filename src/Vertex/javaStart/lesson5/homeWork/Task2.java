@@ -14,7 +14,7 @@ public class Task2 {
         Scanner scanner = new Scanner(fileReader);
         int countStrings = 0;
         while (scanner.hasNextLine()) {
-            scanner.nextLine();
+            System.out.println(scanner.nextLine());
             countStrings++;
         }
         System.out.println(countStrings);

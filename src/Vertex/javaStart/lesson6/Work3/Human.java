@@ -54,6 +54,6 @@ public class Human {
         return "first Name: " + getFirstName()
                 + "\nlast Name: " + getLastName()
                 + "\nprofession: " + getProfession()
-                + "\nage: " + getAge();
+                + "\nage: " + getAge() + "\n";
     }
 }

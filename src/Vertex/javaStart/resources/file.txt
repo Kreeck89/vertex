@@ -1,18 +1,21 @@
 User1
-first Name: Sasha
+first Name: Aleksandr
 last Name: Iushko
 profession: Java Junior
 age: 28
 
+
 User2
-first Name: Valera
+first Name: Valeriy
 last Name: Zinchenko
 profession: BackEnd
 age: 27
+
 
 User3
 first Name: Roman
 last Name: Gradiskiy
 profession: JavaScript
 age: 27
+
 
