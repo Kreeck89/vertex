@@ -8,7 +8,7 @@ import java.io.FileWriter;
 public class Task3 {
 
     public static void main(String[] args) throws Exception{
-        String file = "/Users/ozzy/IdeaProjects/vertex/src/Vertex/javaStart/lesson5/homeWork/task3.txt";
+        String file = "/User/ozzy/IdeaProjects/vertex/src/Vertex/javaStart/lesson5/homeWork/task3.txt";
         String st = "Some string for add.\n";
         addString(file, st);
     }

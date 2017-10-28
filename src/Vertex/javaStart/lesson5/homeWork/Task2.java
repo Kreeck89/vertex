@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Task2 {
 
     public static void main(String[] args) throws Exception {
-        String fReader = "/Users/ozzy/IdeaProjects/vertex/src/Vertex/javaStart/lesson5/homeWork/task2.txt";
+        String fReader = "/User/ozzy/IdeaProjects/vertex/src/Vertex/javaStart/lesson5/homeWork/task2.txt";
         FileReader fileReader = new FileReader(fReader);
         Scanner scanner = new Scanner(fileReader);
         int countStrings = 0;
